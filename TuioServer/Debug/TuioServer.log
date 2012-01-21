@@ -1,0 +1,96 @@
+﻿Build started 1/19/2012 10:37:37 AM.
+     1>Project "C:\Users\skhameneh\Desktop\Touch2Tuio\TuioServer\TuioServer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TuioServer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../lib/TUIO_CPP/TUIO /I../lib/TUIO_CPP/oscpack /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\lib\TUIO_CPP\TUIO\TuioBlob.cpp ..\lib\TUIO_CPP\TUIO\TuioClient.cpp ..\lib\TUIO_CPP\TUIO\TuioContainer.cpp ..\lib\TUIO_CPP\TUIO\TuioCursor.cpp ..\lib\TUIO_CPP\TUIO\TuioDispatcher.cpp ..\lib\TUIO_CPP\TUIO\TuioManager.cpp ..\lib\TUIO_CPP\TUIO\TuioObject.cpp ..\lib\TUIO_CPP\TUIO\TuioPoint.cpp ..\lib\TUIO_CPP\TUIO\TuioServer.cpp ..\lib\TUIO_CPP\TUIO\TuioTime.cpp ..\lib\TUIO_CPP\TUIO\UdpSender.cpp ..\lib\TUIO_CPP\oscpack\ip\IpEndpointName.cpp ..\lib\TUIO_CPP\oscpack\ip\win32\NetworkingUtils.cpp ..\lib\TUIO_CPP\oscpack\osc\OscOutboundPacketStream.cpp ..\lib\TUIO_CPP\oscpack\osc\OscPrintReceivedElements.cpp ..\lib\TUIO_CPP\oscpack\osc\OscReceivedElements.cpp ..\lib\TUIO_CPP\oscpack\osc\OscTypes.cpp ..\lib\TUIO_CPP\oscpack\ip\win32\UdpSocket.cpp
+         UdpSocket.cpp
+         OscTypes.cpp
+         OscReceivedElements.cpp
+         OscPrintReceivedElements.cpp
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\oscpack\osc\oscprintreceivedelements.cpp(233): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(86) : see declaration of 'ctime'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\oscpack\osc\oscprintreceivedelements.cpp(239): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         OscOutboundPacketStream.cpp
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\oscpack\osc\oscoutboundpacketstream.cpp(677): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\oscpack\osc\oscoutboundpacketstream.cpp(1161): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\oscpack\osc\oscoutboundpacketstream.cpp(1201): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         NetworkingUtils.cpp
+         IpEndpointName.cpp
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\oscpack\ip\ipendpointname.cpp(91): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\oscpack\ip\ipendpointname.cpp(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\oscpack\ip\ipendpointname.cpp(121): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\oscpack\ip\ipendpointname.cpp(133): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\oscpack\ip\ipendpointname.cpp(141): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\oscpack\ip\ipendpointname.cpp(155): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         UdpSender.cpp
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\tuio\udpsender.cpp(34): warning C4101: 'e' : unreferenced local variable
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\tuio\udpsender.cpp(52): warning C4101: 'e' : unreferenced local variable
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\tuio\udpsender.cpp(68): warning C4101: 'e' : unreferenced local variable
+         TuioTime.cpp
+         TuioServer.cpp
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\tuio\tuioserver.cpp(148): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\tuio\tuioserver.cpp(159): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\tuio\tuioserver.cpp(176): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         TuioPoint.cpp
+         TuioObject.cpp
+         TuioManager.cpp
+         TuioDispatcher.cpp
+         TuioCursor.cpp
+         TuioContainer.cpp
+         TuioClient.cpp
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\tuio\tuioclient.cpp(86): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\tuio\tuioclient.cpp(87): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\tuio\tuioclient.cpp(249): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\tuio\tuioclient.cpp(250): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\tuio\tuioclient.cpp(478): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\skhameneh\desktop\touch2tuio\lib\tuio_cpp\tuio\tuioclient.cpp(479): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+         TuioBlob.cpp
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\skhameneh\Desktop\Touch2Tuio\Debug\TuioServer.lib" /NOLOGO Debug\TuioBlob.obj
+         Debug\TuioClient.obj
+         Debug\TuioContainer.obj
+         Debug\TuioCursor.obj
+         Debug\TuioDispatcher.obj
+         Debug\TuioManager.obj
+         Debug\TuioObject.obj
+         Debug\TuioPoint.obj
+         Debug\TuioServer.obj
+         Debug\TuioTime.obj
+         Debug\UdpSender.obj
+         Debug\IpEndpointName.obj
+         Debug\NetworkingUtils.obj
+         Debug\OscOutboundPacketStream.obj
+         Debug\OscPrintReceivedElements.obj
+         Debug\OscReceivedElements.obj
+         Debug\OscTypes.obj
+         Debug\UdpSocket.obj
+         TuioServer.vcxproj -> C:\Users\skhameneh\Desktop\Touch2Tuio\Debug\TuioServer.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\TuioServer.unsuccessfulbuild".
+         Touching "Debug\TuioServer.lastbuildstate".
+     1>Done Building Project "C:\Users\skhameneh\Desktop\Touch2Tuio\TuioServer\TuioServer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.48
